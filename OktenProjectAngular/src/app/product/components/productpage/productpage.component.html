@@ -1,0 +1,22 @@
+
+<div>
+<div><img class="MainProductPhoto" src="{{productpage.picture}}"></div>
+  <div class="MainProductsParam">
+    <p>Площа:{{productpage.square}}</p>
+    <p>Кількість кімнат:{{productpage.valuesOfRoom}} </p>
+    <p>Місцезнаходження:{{productpage.whereis}}</p>
+    <p>Ціна: {{productpage.cost}}</p>
+    <p>id: {{productpage.id}}</p>
+  </div>
+  <button class="ProductsButton">Винайняти</button>
+</div>
+
+<div class="Discribe">
+  <p>Додатковий опис</p>
+  {{productpage.moreInformation}}
+</div>
+
+<div class="AdditionalPhotos">
+  <div><img class="ProductPhotos" src="{{productpage.morePicture}}"></div>
+</div>
+

@@ -1,0 +1,23 @@
+.form{
+  margin-top: 1%;
+  margin-left: 41%;
+  padding: 0px 50px 40px 50px ;
+  display: inline-block;
+  border: 3px solid black;
+  text-align: center;
+  border-radius: 10px;
+}
+.input{
+  height: 30px;
+  width: 200px;
+  border-radius: 10px;
+  margin-top: -5%;
+  font-size: 20px;
+}
+.button{
+  margin-top: 40px;
+  width: 150px;
+  height: 50px;
+  border-radius: 10px ;
+}
+

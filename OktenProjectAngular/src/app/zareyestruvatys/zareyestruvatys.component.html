@@ -1,0 +1,24 @@
+<div>
+  <form class="form" #regForm="ngForm" (ngSubmit)="register(regForm)">
+    <h2>Реєстрація</h2>
+    <h3>ПІБ:</h3>
+    <input class="input" type="text" name="pib" maxlength="30" [(ngModel)]="user.pib">
+    <h3>Телефон:</h3>
+    <input class="input" type="tel" name="user_number" maxlength="15" [(ngModel)]="user.user_number">
+    <h3>Логін:</h3>
+    <input class="input" type="text" name="username" maxlength="30" [(ngModel)]="user.username">
+    <h3>Пароль:</h3>
+    <input class="input" type="password" name="password" maxlength="30" [(ngModel)]="user.password">
+    <h3>Емейл:</h3>
+    <input class="input" type="email" name="user_email" maxlength="30" [(ngModel)]="user.user_email">
+    <h3>Дата народження:</h3>
+    <input class="input" type="date" name="birth_date"  [(ngModel)]="user.birth_date">
+    <h3>Стать:</h3>
+    <input  name="gender" type="radio" id="chol" value="Чоловік" checked [(ngModel)]="user.gender">
+    <label for="chol">Чоловіча</label>
+    <input name="gender" type="radio" id="jin" value="Жінка" [(ngModel)]="user.gender">
+    <label for="jin">Жіноча</label>
+    <br>
+    <button class="button">Зареєструватись</button>
+  </form>
+</div>

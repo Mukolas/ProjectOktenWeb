@@ -1,0 +1,23 @@
+<h1>Вітаю! Ви у кабінеті адміна.</h1>
+<div class="navigatePanel">
+  <button class="navigationButton" (click)="addProduct()">Додати пропозицію</button>
+  <br>
+  <button class="navigationButton" (click)="toProducts()" >Керувати продуктами</button>
+  <br>
+  <button class="navigationButton" (click)="toUsers()">Керувати користувачами</button>
+</div>
+<br>
+<div class="showInfo">
+  <div class="search">
+    <h3>Пошук по id: <input class="inputserch"></h3>
+    <div class="input-field col s6">
+      <input  id="first_name2"  class="validate">
+      <label class="active" for="first_name2" > Пошук по Id</label>
+    </div>
+  </div>
+  <div class="searchobject">
+    <h3>Найдено:</h3>
+
+  </div>
+</div>
+<router-outlet></router-outlet>

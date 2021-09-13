@@ -1,0 +1,72 @@
+.form{
+  margin-top: 1%;
+  margin-left: 1%;
+  padding: 0px 50px 40px 50px ;
+  display: inline-block;
+  border: 3px solid black;
+
+  border-radius: 10px;
+}
+
+.inputWhereis{
+  height: 60px;
+  width: 500px;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+.inputValuesOfRoom{
+  height: 30px;
+  width: 40px;
+  border-radius: 10px;
+  margin-top: -5%;
+  font-size: 20px;
+}
+
+.inputSquare{
+  height: 30px;
+  width: 50px;
+  border-radius: 10px;
+  margin-top: -5%;
+  font-size: 20px;
+}
+
+.fornitureInput{
+  height: 100px;
+  width: 500px;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+.moreInformationInput{
+  height: 200px;
+  width: 500px;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+.photo{
+  width: 200px;
+  height: 200px;
+  border:2px solid black;
+  margin-bottom: 10px;
+}
+
+.undertext{
+  margin-top: -20px;
+}
+.button{
+  margin-left: 35%;
+  margin-top: 40px;
+  width: 150px;
+  height: 50px;
+  border-radius: 10px ;
+}
+
+.cost{
+  height: 30px;
+  width: 100px;
+  border-radius: 10px;
+  margin-top: -5%;
+  font-size: 20px;
+}

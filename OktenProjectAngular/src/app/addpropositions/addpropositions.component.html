@@ -1,0 +1,35 @@
+<div>
+  <h1>Створити пропозицію</h1>
+  <form class="form" #prodForm="ngForm" (ngSubmit)="addproposition(prodForm)">
+    <h3>Фото</h3>
+    <h5 class="undertext">(Основне фото квартири)</h5>
+    <div class="photo"></div>
+    <input class="inputPhoto" type="file" name="picture" accept="image/x-png,image/jpeg" [(ngModel)]="product.picture">
+    <h3>Місцезнаходження</h3>
+    <h5 class="undertext">(Місто,вулиця,будинок,квартира)</h5>
+    <textarea class="inputWhereis" type="text" name="whereis" maxlength="80" [(ngModel)]="product.whereis"></textarea>
+    <h3>Кількість кімнат</h3>
+    <input class="inputValuesOfRoom" type="number" value="1" name="valuesOfRoom" min="1" max="50" [(ngModel)]="product.valuesOfRoom">
+    <h3>Площа</h3>
+    <h5 class="undertext">(Загальна площа квартири [м³])</h5>
+    <input class="inputSquare" type="number" name="square" [(ngModel)]="product.square">
+    <h3>Домашні улюбленці</h3>
+    <input name="pet" type="radio" id="No" value="Ні" checked [(ngModel)]="product.pet">
+    <label for="No">Ні</label>
+    <input name="pet" type="radio" id="Yes" value="Так" [(ngModel)]="product.pet">
+    <label for="Yes">Так</label>
+    <h3>Меблі</h3>
+    <h5 class="undertext">(Додаткові меблі і прилади в квартирі)</h5>
+    <textarea class="fornitureInput" type="text" name="forniture" maxlength="500" [(ngModel)]="product.forniture"> </textarea>
+    <h3>Більше інформації</h3>
+    <textarea class="moreInformationInput" type="text" name="moreInformation" maxlength="1000" [(ngModel)]="product.moreInformation"></textarea>
+    <h3>Додаткові фото</h3>
+    <h5 class="undertext">(Додаткові фото приміщень у квартирі)</h5>
+    <input class="inputPhotos" type="file" name="morePicture" multiple accept="image/png,image/jpeg" [(ngModel)]="product.morePicture">
+    <h3>Ціна</h3>
+    <h5 class="undertext">Орієнтована ціна за місяць</h5>
+    <input class="cost" type="number"  name="cost" [(ngModel)]="product.cost"><label class="cost"> грн/міс</label>
+    <br>
+    <button class="button">Запропонувати</button>
+  </form>
+</div>

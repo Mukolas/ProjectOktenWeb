@@ -1,0 +1,36 @@
+.productSmallMenu{
+  display: inline-block;
+  border: 2px solid black;
+  border-radius: 10px;
+  width: 420px;
+  height: 610px;
+  padding-left: 10px;
+  margin: 10px;
+}
+
+.productpicture{
+  display: inline-block;
+  border: 1px solid black;
+  border-radius: 10px;
+  width: 408px;
+  height: 350px;
+  margin-top: 10px;
+}
+
+.MZ{
+  margin-top: 5px;
+  margin-right: 10px;
+  height: 40px;
+}
+
+.linka{
+  padding-top: 595px;
+  padding-right: 435px;
+  margin-left: -13px;
+  margin-top: -10px;
+  border-radius: 10px;
+}
+.PetIs{
+  display: none;
+}
+

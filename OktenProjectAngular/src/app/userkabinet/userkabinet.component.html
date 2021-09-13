@@ -1,0 +1,22 @@
+
+<div>
+  <div class="userphoto"> </div>
+  <div class="MainUserParam">
+  <p>ПІБ: {{user.pib}}</p>
+  <p>Номер телефону: {{user.User_number}}</p>
+  <p>Емейл: {{user.User_email}}</p>
+  <p>Дата народження: {{user.Birth_date}}</p>
+  <p>Стать: {{user.gender}}</p>
+    </div>
+  <button class="edit">Редагувати</button>
+</div>
+
+<div class="Discribe">
+  <p>Додаткова інформація</p>
+</div>
+
+<div class="Rents">
+  <button class="becomeRenter" (click)="addProposition()">Стати орендодавцем</button>
+  <br>
+  <button class="becomeRenter" (click)="toAdminKabinet()"> Панель Адміна</button>
+</div>

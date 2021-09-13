@@ -1,0 +1,25 @@
+.navigatePanel{
+  height: 230px;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+}
+
+.navigationButton{
+  height: 50px;
+  width: 300px;
+  border-radius: 10px;
+  font-size: 20px;
+  margin:20px 50% 0 40%;
+}
+
+.search{
+border-bottom: 2px solid black;
+}
+
+.inputserch{
+  height: 30px;
+  width: 300px;
+  border-radius: 10px;
+  font-size: 20px;
+  margin-left: 1%;
+}

@@ -1,0 +1,23 @@
+.CompanyName{
+display: inline-block;
+  border-bottom: 2px solid black;
+  width: 101%;
+  margin-left: -10px;
+  text-align: center;
+  font-size: 40px;
+  font-style: italic;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+.MainInfo{
+  display: inline-block;
+  border-bottom: 2px solid black;
+  width: 98%;
+  margin-left: -10px;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 2%;
+  padding-right: 1%;
+  height: auto;
+}
+

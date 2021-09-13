@@ -1,0 +1,11 @@
+<div>
+<form class="form" #logForm="ngForm" (ngSubmit)="login(logForm)">
+  <h2>Вхід</h2>
+  <h3>Логін:</h3>
+  <input class="input" type="text" name="username" maxlength="30" [(ngModel)]="user.username" >
+  <h3>Пароль:</h3>
+  <input class="input" type="password" name="password" maxlength="30" [(ngModel)]="user.password">
+  <br>
+  <button class="button">Увійти</button>
+</form>
+</div>

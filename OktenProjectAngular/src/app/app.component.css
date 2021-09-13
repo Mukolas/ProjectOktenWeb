@@ -1,0 +1,75 @@
+.menu{
+  margin-left: -10px;
+  margin-right: -100px;
+  width: 73%;
+  display: inline-flex;
+  border-top: 3px solid black;
+  border-bottom: 3px solid black;
+  padding-left: 28%;
+  overflow-x: hidden;
+
+}
+.pages{
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  padding-left: 100px;
+  padding-right: 100px;
+  text-decoration: none;
+}
+.undermenuOne{
+  margin-top: -25px;
+  padding-bottom: 10px;
+  text-align: center;
+  border-bottom: 1px solid black;
+}
+.undermenuTwo{
+  text-align: center;
+  margin-top: -10px;
+  padding-bottom: 10px;
+  margin-bottom: -2%;
+}
+.undermenu{
+  text-decoration: none;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 10px;
+  padding-bottom: 15px;
+
+}
+.ContactInfo{
+  display: inline-block;
+  border-bottom: 2px solid black;
+  width: 99%;
+  margin-left: -10px;
+  margin-top: 1%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 2%;
+  height: 200px;
+  background-color: aliceblue;
+}
+.pagesTwo{
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  text-align: center;
+  padding-top: 35px;
+  padding-bottom: 10px;
+  text-decoration: none;
+}
+.userPage{
+  display: inline-block;
+  border: 1px solid black;
+  width: 77px;
+  height: 77px;
+  border-radius: 50%;
+  margin-left: 400px;
+}
+.userPageLink{
+  display: inline-block;
+  width: 77px;
+  height: 77px;
+  border-radius: 50%;
+}

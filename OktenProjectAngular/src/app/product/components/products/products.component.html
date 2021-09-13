@@ -1,0 +1,10 @@
+
+<div class="row">
+  <div class="input-field col s6">
+    <input  id="first_name2"  class="validate">
+    <label class="active" for="first_name2" [(ngModel)]="searchId"> Пошук по Id</label>
+  </div>
+</div>
+<app-product *ngFor="let p of products " [product]="p"></app-product>
+<router-outlet></router-outlet>
+

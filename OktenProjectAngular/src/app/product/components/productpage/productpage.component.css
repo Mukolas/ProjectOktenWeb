@@ -1,0 +1,48 @@
+.MainProductPhoto{
+width: 400px;
+  height: 350px;
+  border: 2px solid black;
+  border-radius: 20px;
+  margin-top: 1.5%;
+  margin-left: 1%;
+  float: left;
+}
+.MainProductsParam{
+  display: inline-block;
+  margin-left: 2%;
+  margin-top: 1.5%;
+  width: auto;
+  height: 350px;
+}
+.ProductsButton{
+width: 150px;
+  height: 70px;
+  border-radius: 20px;
+  margin-left: 90%;
+  margin-bottom: -200px;
+}
+.backpageButton{
+  float: left;
+  width: 150px;
+  height: 70px;
+  border-radius: 20px;
+  margin-left: 90%;
+  margin-top: -19%;
+}
+.Discribe{
+  border-top: 2px solid black;
+  margin-top: 2%;
+  border-bottom: 2px solid black;
+}
+.AdditionalPhotos{
+  border-bottom: 2px solid black;
+}
+.ProductPhotos{
+width: 300px;
+  height: 250px;
+  border: 2px solid black;
+  margin-top: 1.5%;
+  margin-left: 1%;
+  margin-bottom: 1.5%;
+  border-radius: 20px;
+}

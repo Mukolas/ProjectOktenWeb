@@ -1,0 +1,12 @@
+
+<div class="productSmallMenu" *ngIf="product.pet">
+  <div class="productpicture"><img src="{{product.picture}}"></div>
+  <div class="MZ">Місцезнаходження: {{product.whereis}}</div>
+  <p>Кількість кімнат: {{product.valuesOfRoom}}</p>
+  <p>Площа: {{product.square}}</p>
+  <p>Домашній улюбленець: {{product.pet}}</p>
+  <p>Ціна: {{product.cost}}</p>
+  <p>id: {{product.id}}</p>
+  <a class="linka" (click)="goTo()" [routerLink]="product.id"></a>
+</div>
+  <router-outlet></router-outlet>

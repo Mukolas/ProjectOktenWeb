@@ -1,0 +1,20 @@
+  <br>
+  <div class="SortingDivMain">
+    <div class="SortingDiv"> <div>Сортування</div>
+      <br>
+      <div class="SortingDivOne"  routerLink="sortCostPlus">По ціні +</div>
+      <div class="SortingDivOne" routerLink="sortCostMinus">По ціні -</div>
+      <div class="SortingDivOne" routerLink="sortSquarePlus">По площі +</div>
+      <div class="SortingDivOne" routerLink="sortSquareMinus">По площі -</div>
+      <div class="SortingDivOne" routerLink="sortValueOfRoomPlus">По кількості кімнат +</div>
+      <div class="SortingDivOne" routerLink="sortValueOfRoomMinus">По кількості кімнат -</div>
+    </div>
+  </div>
+<br>
+<div class="MainInfo">
+<router-outlet></router-outlet>
+</div>
+<br>
+<form class="form" #pomForm="ngForm"></form>
+
+

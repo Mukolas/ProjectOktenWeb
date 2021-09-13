@@ -1,0 +1,48 @@
+.SortingDivMain{
+  display: inline-block;
+  border-bottom: 2px solid black;
+  width: 98%;
+  margin-left: -10px;
+  padding-bottom: 1%;
+  padding-left: 2%;
+  padding-right: 1%;
+
+}
+.MainInfo{
+  display: inline-block;
+  border-bottom: 2px solid black;
+  width: 98%;
+  margin-left: -10px;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 2%;
+  padding-right: 1%;
+  height: auto;
+}
+.SortingDiv{
+  margin-left: 140px;
+}
+.SortingDivOne{
+  display: inline-block;
+  height: 40px;
+  padding-top: 20px;
+  width: 250px;
+  border: 1px solid black;
+  text-align: center;
+
+}
+.input{
+  border-top-left-radius: 10px ;
+  border-bottom-left-radius: 10px;
+  width: 450px;
+  height: 30px;
+  font-size: 20px;
+}
+.button{
+  width: 90px;
+  height: 36px;
+  border-top-right-radius: 10px ;
+  border-bottom-right-radius: 10px;
+  font-size: 20px;
+
+}
